@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>카드 형식 상품 페이지</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .product-card {
+            flex-basis: 33.333%;
+            background-color: #f8f8f8;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        .product-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .product-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .product-price {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .add-to-cart {
+            background-color: #007BFF;
+            color: #FFF;
+            padding: 8px 16px;
+            font-size: 14px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .add-to-cart:hover {
+            background-color: #0056b3;
+            color: #FFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- 상품 카드 1 -->
+        <div class="product-card">
+            <img src="https://img.seoul.co.kr/img/upload/2022/01/12/SSI_20220112170537_O2.jpg" alt="상품 이미지" class="product-image">
+            <h3 class="product-title">상품 이름 1</h3>
+            <p class="product-price">₩ 가격 1</p>
+            <a href="#" class="add-to-cart">장바구니에 담기</a>
+        </div>
+        <!-- 상품 카드 2 -->
+        <div class="product-card">
+            <img src="https://img.seoul.co.kr/img/upload/2022/01/12/SSI_20220112170537_O2.jpg" alt="상품 이미지" class="product-image">
+            <h3 class="product-title">상품 이름 2</h3>
+            <p class="product-price">₩ 가격 2</p>
+            <a href="#" class="add-to-cart">장바구니에 담기</a>
+        </div>
+        <!-- 상품 카드 3 -->
+        <div class="product-card">
+            <img src="https://img.seoul.co.kr/img/upload/2022/01/12/SSI_20220112170537_O2.jpg" alt="상품 이미지" class="product-image">
+            <h3 class="product-title">상품 이름 3</h3>
+            <p class="product-price">₩ 가격 3</p>
+            <a href="#" class="add-to-cart">장바구니에 담기</a>
+        </div>
+                <!-- 상품 카드 4 -->
+        <div class="product-card">
+            <img src="https://img.seoul.co.kr/img/upload/2022/01/12/SSI_20220112170537_O2.jpg" alt="상품 이미지" class="product-image">
+            <h3 class="product-title">상품 이름 4</h3>
+            <p class="product-price">₩ 가격 4</p>
+            <a href="#" class="add-to-cart">장바구니에 담기</a>
+        </div>
+    </div>
+</body>
+</html>
